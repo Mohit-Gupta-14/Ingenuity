@@ -1,0 +1,42 @@
+/* Container holding the image and the text */
+.container {
+    padding:-10px;
+    margin: -20px;
+    display:inline-block ;
+    text-align: center;
+    color:chocolate;
+  }
+
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-weight: bold;
+    color:darkturquoise;
+    font-size: 40px;
+    border-color: black;
+    transform: translate(-50%, -50%);
+  }
+  .data
+  {
+    padding: -0px;
+    margin: -8px;
+    background-color: chocolate;
+    text-align: justify;
+    font-size: 25px;
+    line-height: 30px;
+    
+  }
+  .data1
+  {
+    background-color:aliceblue;
+    text-align: justify;
+    font-size: 25px;
+    line-height: 30px;
+    
+  }
+  *{
+    margin: 0%;
+    padding: 0%;
+  }

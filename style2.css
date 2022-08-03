@@ -1,0 +1,43 @@
+.imagevi{
+    text-align: center;
+    margin:auto;
+    width: 95%;
+    border-radius: 10px;
+    background-color: lightgray;
+ 
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.h2{
+color: chocolate;
+text-align: center;
+margin: 5px;
+font-family :Georgia, 'Times New Roman', Times, serif;
+}
+.h1{
+text-align: center;
+color: rgb(124, 52, 1);
+margin: 10px;
+font-family:cursive;
+
+}
+.back{
+background-color :darkgrey;
+
+}
+.data
+{
+padding-left: 20%;
+padding-right: 20%;
+text-align: justify;
+line-height: 30px;
+font-size: 40dp;
+
+}
+.image{
+height: 100;
+width: 100;
+border-radius: 15px;
+}
