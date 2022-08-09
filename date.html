@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date</title>
+</head>
+<body>
+    <script>
+        var currentDate = new Date();
+        var day = String(currentDate.getDate()).padStart(2,'0');
+        var month = String(currentDate.getMonth() + 1).padStart(2,'0');
+        var year = currentDate.getFullYear();
+        const week = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+        var weekday=week[currentDate.getDay()];
+        var date=day+'/'+month+'/'+year;
+        document.body.innerHTML = "<h1>"+date+"</h1>"+"<h2>"+weekday+"</h2>";
+
+        var name=prompt("Enter Name");
+        document.write('<h1 style="color:red">' + name+'</h1>');
+
+        var n1=Number(prompt("Enter No 1"));
+        var n2=Number(prompt("Enter No 2"));
+         var sum=n1+n2;
+        var sub=n1-n2;
+        var mul=n1*n2;
+        var div=n1/n2;
+         document.write("<h2>" +"Number 1 :" + n1 + "</h2>"+"<h2>" +"Number 2 :" + n1 + "</h2>");
+         document.write("<h2>" +"Addition :" + sum + "</h2>"+"<h2>" +"Subraction :" + sub + "</h2>");
+         document.write("<h2>" +"Multipication :" + mul + "</h2>"+"<h2>" +"Division :" + div + "</h2>"); 
+
+
+    </script>
+</body>
+</html>
