@@ -9,22 +9,36 @@
     height: 100vh;
     overflow: hidden;
     position: relative;
-}
+    }
 .highway
 {
     
-    width: 500%;
+    width: 1000%;
     height: 200px;
     background-image: url(./tempimg/highway.jpg);
     position: absolute;
     left: 0;
     right: 0;
     bottom: 0;
-    animation : high 5s linear infinite;
+    animation : high .1s linear infinite;
 }
 @keyframes high {
     100%{
         transform: translate(-1500px);
+    }
+}
+.moon{
+    position: relative;
+    width: 200px;
+    height: 100px;
+    z-index: 1;
+    top: 10px;
+    left: 1350px    ;
+     animation : high1 4s linear infinite;  
+}
+@keyframes high1 {
+    100%{
+        transform: translateX(-1500px) translateY(250px);
     }
 }
 .build
@@ -37,7 +51,7 @@
     left: 0;
     right: 0;
     z-index: 2;
-    animation : city 10s linear infinite;
+    animation : city .5s linear infinite;
 }
 @keyframes city {
     100%{
@@ -55,7 +69,7 @@
 .car img
 {
     width: 100%;
-    animation : car 1s linear infinite;
+    animation : car .001s linear infinite;
 }
 @keyframes car {
     0%{
@@ -81,7 +95,7 @@
 .wheel img{
     width: 72px;
     height: 72px;
-    animation : wheel 2s linear infinite;
+    animation : wheel 0.0001s linear infinite;
 }
 @keyframes wheel {
     100%{
