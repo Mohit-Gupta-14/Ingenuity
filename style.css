@@ -20,7 +20,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    animation : high .1s linear infinite;
+    animation : high 1s linear infinite;
 }
 @keyframes high {
     100%{
@@ -34,7 +34,7 @@
     z-index: 1;
     top: 10px;
     left: 1350px    ;
-     animation : high1 4s linear infinite;  
+     animation : high1 10s linear infinite;  
 }
 @keyframes high1 {
     100%{
@@ -51,7 +51,7 @@
     left: 0;
     right: 0;
     z-index: 2;
-    animation : city .5s linear infinite;
+    animation : city 5s linear infinite;
 }
 @keyframes city {
     100%{
@@ -61,7 +61,7 @@
 .car{
     width: 500px;
     left: 50%;
-    bottom: 100px;
+    bottom: 140px;
     transform: translateX(-50%);
     position: absolute;
     z-index: 2;
@@ -69,7 +69,7 @@
 .car img
 {
     width: 100%;
-    animation : car .001s linear infinite;
+    animation : car 2s linear infinite;
 }
 @keyframes car {
     0%{
@@ -95,7 +95,7 @@
 .wheel img{
     width: 72px;
     height: 72px;
-    animation : wheel 0.0001s linear infinite;
+    animation : wheel 1s linear infinite;
 }
 @keyframes wheel {
     100%{
