@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        var n=3;
+        var o=1;
+        var x = Math.floor((Math.random() * 10) + 1);
+        while(n!=0)
+        {
+            var t=Number(prompt("Game of Win or Loss  \nYou Have Left Chances : "+n))
+            if(t==x)
+            {
+                document.write('<h1 style="text-align:center; color:chocolate;">'+"You Won A Jackpot"+'</h1>');
+                o=1;
+                document.write('<div style="display: flex; justify-content: center; align-items: center;">'+
+                                '<img  src="no.jpg" style="justify-content: center;">'
+                                    +'</div>');
+                break;
+                                }
+            else{
+                n=n-1;
+                confirm("You Lost A Chance");
+                o=0;
+            }
+        }
+        if(o==0)
+        {
+            document.write('<h1 style="text-align:center; color:chocolate;">'+"You Lost A Jackpot"+'</h1>');
+            document.write('<div style="display: flex; justify-content: center; align-items: center;">'+
+                                '<img  src="yes.jpg" style="justify-content: center;">'
+                                    +'</div>');
+        }
+        </script>
+</body>
+</html>
