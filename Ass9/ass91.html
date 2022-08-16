@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function ad(arr,n)
+        {
+            var sum=0;
+            for(var i=0;i<n;i++)
+        {
+            sum=sum+arr[i];
+        }
+        return sum;
+        }
+        var n=Number(prompt("Enter no of Elements :"));
+        var ar=[];
+        for(var i=0;i<n;i++)
+        {
+            ar[i]=Number(prompt("Enter No."+i))
+        }
+        var sum=ad(ar,n);
+        document.write('<h1 style="text-align:center; color:chocolate;">'+"SUM :"+sum+'</h1>');
+    </script>
+    <h2 style="text-align:center; color:chocolate;">Code</h2>
+    <p style="text-align:center; color:chocolate;">function add(){<br>
+        var n=arguments.length();<br>
+        for(var i=0;i<n;i++)<br>
+        {<br>
+            sum=sum+arrgument[i];<br>
+        }<br>
+    }</p>
+
+    </body>
+</html>

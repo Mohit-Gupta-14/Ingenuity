@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function check(inp)
+        {
+           var f=inp.substring(0,3);
+           var l=inp.slice(-3);
+           var final=f+l;
+           document.write('<h1 style="text-align:center; color:chocolate;">'+final+'</h1>');
+        }
+        var inp=prompt("Enter String :");
+        if(inp.length>=3)
+        check(inp);
+        else
+        document.write('<h1 style="text-align:center; color:chocolate;">'+inp+'</h1>');
+    </script>
+    
+    <p style="text-align:center; color:chocolate;">Code :<br><br>
+        function check(inp)
+        {
+           var f=inp.substring(0,3);
+           var l=inp.slice(-3);
+           var final=f+l;
+           document.write();
+        }
+        var inp=prompt("Enter String :");
+        if(inp.length>=3)
+        check(inp);
+        else
+        document.write();
+    </p>
+</body>
+</html>
