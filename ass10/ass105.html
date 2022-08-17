@@ -10,12 +10,12 @@
     <script>
         var people = [
                         { name: "Ashish", age: 23 },
-                        { name: "Ajay", age: 21 },
+                        { name: "Ajay", age: 12 },
                         { name: "Arvind", age: 26 },
                         { name: "Mahesh", age: 28 },
                         { name: "Jay", age: 19 }
 ];
-var so=people.filter((i)=>i.age<25).sort();
+var so=people.filter((i)=>i.age<25).sort(function(n1,n2){return n1.age-n2.age}).reverse();
 so.map((i)=>{
     document.write('<p><h1 style="text-align:center; color:chocolate;">'+i.name+"  Age : "+i.age+'</h1></p>');
 })
