@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var person = 
+        {
+            fullName: function() 
+            {
+                return this.firstName + " " + this.lastName;
+            }
+        }
+        var person1 = 
+        {
+            firstName:prompt("Enter First Name "),
+            lastName:prompt("ENter Last Name ")
+        }
+        document.write('<h1 style="text-align:center; color:chocolate;">'+"Call :"+person.fullName.call(person1)+'</h1>');
+        document.write('<h1 style="text-align:center; color:chocolate;">'+"Apply :"+person.fullName.apply(person1)+'</h1>');
+
+    </script>
+    <p style="text-align:center; color:skyblue;">
+        var person =<br> 
+        {<br>
+            fullName: function()<br> 
+            {<br>
+                return this.firstName + " " + this.lastName;<br>
+            }<br>
+        }<br>
+        var person1 =<br> 
+        {<br>
+            firstName:prompt("Enter First Name "),<br>
+            lastName:prompt("ENter Last Name ")<br>
+        }<br>
+        document.write(person.fullName.call(person1));<br>
+        document.write(person.fullName.apply(person1));<br>
+    </p>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var people = [
+                        { name: "Ashish", age: 23 },
+                        { name: "Ajay", age: 21 },
+                        { name: "Arvind", age: 26 },
+                        { name: "Mahesh", age: 28 },
+                        { name: "Jay", age: 19 }
+];
+var so=people.filter((i)=>i.age<25).sort();
+so.map((i)=>{
+    document.write('<p><h1 style="text-align:center; color:chocolate;">'+i.name+"  Age : "+i.age+'</h1></p>');
+})
+    </script>
+</body>
+</html>

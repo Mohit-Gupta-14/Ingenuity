@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var n=prompt("Enter No of Cube Root :");
+        const numbers =[];
+        for(var i=0;i<n;i++)
+        {
+            numbers[i]=prompt("Enter No ."+(i+1));
+        }
+        const newArr = numbers.map(Math.cbrt)
+        console.log(newArr);
+        for(var i=0;i<n;i++)
+        {
+            document.write('<h1 style="text-align:center; color:chocolate;">'+numbers[i]+" : "+newArr[i]+'</h1>');
+        }
+    </script>
+    <p style="text-align:center; color:skyblue;">
+    var n=prompt("Enter No of Cube Root :");<br>
+    const numbers =[];<br>
+    for(var i=0;i<n;i++)<br>
+    {<br>
+        numbers[i]=prompt("Enter No ."+i);<br>
+    }<br>
+    const newArr = numbers.map(Math.cbrt)<br>
+    console.log(newArr);<br>
+    for(var i=0;i<n;i++)<br>
+    {<br>
+        document.write();<br>
+    }<br>
+    </p>
+</body>
+</html>
