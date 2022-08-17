@@ -9,12 +9,18 @@
 <body>
     <script>
         function func() {
-      const items = [12, 24, 36];
-      const copy = [];
-      items.forEach(function (item) {
-          copy.push(item + item+2);
+            var n=prompt("Enter Array size");
+            var item=[];
+            for(var i=0;i<n;i++)
+            {
+                item[i]=prompt("Enter Element :"+(i+1));
+            }
+      var copy = [];
+      item.forEach(function (item) {
+          copy.push(item);
       });
-      document.write('<h1 style="text-align:center">'+copy+'</h1>');
+      document.write('<h1 style="text-align:center; color:red">'+"Original Array : "+item+'</h1>');
+      document.write('<h1 style="text-align:center; color:red">'+"Copied Array : "+copy+'</h1>');
   }
   func();
     </script>

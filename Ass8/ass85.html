@@ -8,10 +8,15 @@
 </head>
 <body>
     <script>
-        const fruits = ["Banana", "Orange", "Apple", "Mango"];
-fruits.sort();
-fruits.reverse();
-document.write('<h1 style="text-align:center">'+fruits+'</h1>');
+        const fruits = [];
+        var n=prompt("Enter No of String");
+            for(var i=0;i<n;i++)
+            {
+                fruits[i]=prompt("Enter String :"+(i+1));
+            }
+            document.write('<h1 style="text-align:center; color:red">'+"Original : "+fruits+'</h1>');
+        fruits.sort();
+      document.write('<h1 style="text-align:center; color:red">'+"Sorted : "+fruits+'</h1>');
     </script>
 </body>
 </html>

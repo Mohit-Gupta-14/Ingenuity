@@ -8,17 +8,18 @@
 </head>
 <body>
     <script>
-        function exam_status(totmarks,is_exam)
-  {
-  if (is_exam) {
-    return totmarks >= 90;
-  }
- return (totmarks >= 89 && totmarks <= 100);
- }
-
-    console.log(exam_status("78", " "));
-    console.log(exam_status("89", "true "));
-    console.log(exam_status("99", "true "));
+        var n=prompt("Enter No of Student :");
+        var stu=[];
+        for(var i=1;i<n;i++)
+        {
+            stu[i]=Number(prompt("Enter Marks of Student : "+(i+1)+" OutOf 500"));
+        }
+        document.write('<h1 style="text-align:center; color:skyblue;">'+"Result"+'</h1>');
+        for(var i=1;i<n;i++)
+        {
+            if(stu[i]>175)
+            document.write('<h1 style="text-align:center; color:red;">'+"Student :"+i+" : "+stu[i]+'</h1>');
+        }
     </script>
 </body>
 </html>

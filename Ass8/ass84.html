@@ -9,11 +9,10 @@
 <body>
     <script>
         var a = [1,2,3];
-        a.push.apply(a, [4,5]);
-        var arrayA = [1, 2];
-        var arrayB = [3, 4];
-        var newArray = arrayA.concat(arrayB);
-        document.write('<h1 style="text-align:center">'+newArray+'</h1>');
+        document.write('<h1 style="text-align:center; color:chocolate;">'+"Original Array :"+a+'</h1>');
+        var n=prompt("Enter Element to add in Array :");
+        a.push(n);
+        document.write('<h1 style="text-align:center; color:chocolate;">'+"New Array :"+a+'</h1>');
     </script>
 </body>
 </html>

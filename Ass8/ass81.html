@@ -9,8 +9,10 @@
 <body>
     <script>
         let text = prompt("Enter String");
-        let result = text.trim();
-        document.write('<h1>'+result+'</h1>');
+        let result = text.split(" ").join("")
+        document.write('<h1 style="text-align:center; color:chocolate;">'+"Output"+'</h1>');
+        document.write('<h1 style="text-align:center; color:chocolate;">'+"Original :"+text+'</h1>');
+        document.write('<h1 style="text-align:center; color:chocolate;">'+"Result :"+result+'</h1>');
     </script>
 </body>
 </html>
