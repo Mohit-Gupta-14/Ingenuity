@@ -21,7 +21,7 @@ document.getElementById("start").style.visibility ="hidden";
 }
 po[0].style.visibility = "visible";
  po[1].style.visibility = "visible";
-   setInterval(pri,2000); 
+   setInterval(pri,1500); 
 }
 function pri()
 {

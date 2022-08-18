@@ -6,7 +6,7 @@
 body {
   height: 100vh;
   overflow: hidden;
-  background-image: url("bg10.jpg");
+  background-image: url("back.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: inherit;
@@ -86,6 +86,7 @@ h1 {
   position: absolute;
   height: 80px;
   width: 70px;
+  
 }
 #mole1 {
   top: 64%;
