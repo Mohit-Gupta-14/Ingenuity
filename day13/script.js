@@ -2,10 +2,10 @@ var inp=document.querySelector('.todo-input');
 var btn=document.querySelector('button');
 var list=document.querySelector('.todo-list');
 var out=window.localStorage.getItem("data");
-console.log(out);
 var d=[];
 var i=0;
-if(out==null)
+console.log(out.length);
+if(out==""||out==null)
 {
     alert("No Work To Be Done");
 }
