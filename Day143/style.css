@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container
+{
+    height: 100vh;
+    background-color: teal;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+}
+.entry{
+    height: 80%;
+    width: 70%;
+    background-color: chocolate;
+    border-radius: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+#header{
+    margin: 20px;
+    color:black;
+    font-family: 'Rubik Dirt', cursive
+}
+#forme{
+ display: flex;
+ flex-direction: column;
+ font-size: 18px;
+}
+.format{
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+}
+label{
+    position: relative;
+    left: 10px;
+}

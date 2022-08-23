@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .container{
+            height: 90vh;
+            display: flex;
+            flex-direction:column;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .box{
+            background-color: gray;
+            height: 150px;
+            width:150px;
+            border-radius: 50%;
+            align-items: center;
+            justify-content: center;
+            font-size: 19px;
+            font-family: 'DynaPuff', cursive;
+            color: aliceblue;
+            display: flex;
+            background: linear-gradient(0deg, rgba(22,255,0,1) 50%, rgba(0,212,255,1) 50%);
+            animation: loader1 2s linear infinite ;
+        }
+        @keyframes loader1 {
+            0%{
+                transform: translateY(0px) rotate(0deg);
+            }
+            50%{
+                transform: translateY(-200px) rotate(180deg);
+            }
+            100%{
+                transform: translateY(0px) rotate(360deg);
+            }
+        }
+        .shad{
+            background-color: gray;
+            height: 25px;
+            width:150px;
+            border-radius: 50%;
+            animation: loader2 2s linear infinite ;
+        }
+
+        @keyframes loader2 {
+            0%{
+                transform: scale(0.1);
+            }
+            50%{
+                transform: scale(1);
+            }
+            100%{
+                transform: scale(0.1);
+            }
+        }
+        #btn{
+            color: gold;
+            border: none;
+            outline: none;
+            border-radius: 10px;
+            background-color: teal;
+            padding: 15px 32px;
+            text-align: center;
+            font-size: 16px;
+            margin: 4px 4px;
+            cursor: pointer;
+            transition: 2s;
+            font-weight: bold;
+        }
+        #btn:hover
+        {
+            background-color: yellow;
+            color: black;
+            cursor: pointer;
+        }
+        h3{
+            font-weight: bold;
+            color: teal;
+        }
+    </style>
+</head>
+<script>
+    function openWindow()
+    {
+        var url="index.html";
+        var windowsi="height = 1200px width=1500px";
+        window.open(url,"Game",windowsi)
+    }
+</script>
+<body>
+    <div class="container">
+        <div class="box">
+                <h3>Woke A Mole</h3>
+        </div>
+        <div class="shad">
+
+        </div>
+            <button id="btn" onclick="openWindow()">Play Game</button>
+    </div>
+    
+</body>
+</html>

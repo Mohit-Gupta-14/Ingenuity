@@ -1,3 +1,10 @@
+window.onload= function(){
+    setInterval(stopload,5000);
+}
+function stopload(){
+    document.querySelector(".container").style.display="none";
+    document.querySelector(".todo").style.display="block";
+}
 var inp=document.querySelector('.todo-input');
 var btn=document.querySelector('button');
 var list=document.querySelector('.todo-list');
