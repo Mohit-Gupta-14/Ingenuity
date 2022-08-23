@@ -18,7 +18,8 @@ while(i<d.length){
 }
 btn.onclick = function crtodo(e){
     e.preventDefault();
-    if(inp.value.length>0){
+    var input=inp.value.trim();
+    if(input.length>0){
     d.push(inp.value);
     window.localStorage.setItem("data",d);
     creator(inp.value);
@@ -46,17 +47,21 @@ function creator(inputed)
 {
     var newdiv=document.createElement("div");
     newdiv.classList.add('tododiv');
+    // List Item
     var newli=document.createElement("li");
     newli.classList.add('tododiv_item');
     newli.innerHTML=inputed;
     newdiv.appendChild(newli);
+    // Button Check
     var checkbtn=document.createElement("button");
     checkbtn.classList.add('tododiv_check');
     checkbtn.innerHTML='<i class="fa fa-check"></i>';
     newdiv.appendChild(checkbtn);
+    // Button Trash
     var endbtn=document.createElement("button");
     endbtn.classList.add('tododiv_end');
     endbtn.innerHTML='<i class="fa fa-trash"></i>';
     newdiv.appendChild(endbtn);
+
     list.appendChild(newdiv);
 }

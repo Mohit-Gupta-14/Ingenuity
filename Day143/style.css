@@ -16,11 +16,12 @@
 .entry{
     height: 80%;
     width: 70%;
-    background-color: chocolate;
+    background-color:chocolate;
     border-radius: 20px;
     align-items: center;
     display: flex;
     flex-direction: column;
+
 }
 #header{
     margin: 20px;
@@ -34,10 +35,36 @@
 }
 .format{
     display: flex;
+    position: relative;
     align-items:center;
-    justify-content: space-evenly;
+    justify-content:end;
+    width: 400px;
+    padding: 10px;
 }
 label{
     position: relative;
-    left: 10px;
+    right: 40px;
+}
+input
+{
+    width: 180px;
+}
+#cars
+{
+    width: 180px;
+    height: 20px;
+    box-shadow: 2px 2px;
+}
+.rad{
+    display: flex;
+    flex-direction: column;
+    
+    border: 2px solid blue;
+    width: 180px;
+}
+.radi
+{
+    padding: 2px;
+    display: flex;
+    flex-direction: row;
 }
