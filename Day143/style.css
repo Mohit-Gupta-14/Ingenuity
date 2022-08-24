@@ -7,16 +7,18 @@
 .container
 {
     height: 100vh;
-    background-color: teal;
+    background-image:url("https://img.freepik.com/premium-photo/contact-us-customer-support-hotline-people-connect-call-customer-support-email-address-live-chat-internet-wifi_36325-3415.jpg?w=2000");
     display:flex;
     align-items:center;
     justify-content:center;
     flex-direction: column;
+    font-weight: bold;
 }
 .entry{
     height: 80%;
     width: 70%;
-    background-color:chocolate;
+    background-color: #fff;
+    background-color: rgba(255,255,255,0.5);
     border-radius: 20px;
     align-items: center;
     display: flex;
@@ -24,9 +26,10 @@
 
 }
 #header{
-    margin: 20px;
-    color:black;
-    font-family: 'Rubik Dirt', cursive
+    margin: 25px;
+    color:orange;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 5px 2px 5px;
 }
 #forme{
  display: flex;
@@ -35,36 +38,83 @@
 }
 .format{
     display: flex;
-    position: relative;
-    align-items:center;
     justify-content:end;
     width: 400px;
     padding: 10px;
 }
 label{
-    position: relative;
-    right: 40px;
+    padding-right: 10px;
+    padding-left: 5px;
 }
-input
+input,select
 {
     width: 180px;
+    background-color: transparent;
+    outline: 0;
+    border-width: 0 0 1px;
+    border-color: white
+}
+input:focus{
+    border-color: black;
 }
 #cars
 {
     width: 180px;
     height: 20px;
-    box-shadow: 2px 2px;
+    background-color: transparent;
+
 }
 .rad{
-    display: flex;
-    flex-direction: column;
-    
-    border: 2px solid blue;
+  
     width: 180px;
+    font-size: 12px;
 }
 .radi
 {
+    width: 100%;
     padding: 2px;
     display: flex;
-    flex-direction: row;
+}
+#veh{
+    height: 15px;
+    width :15px;
+}
+.text{
+    display: flex;
+    position: relative;
+    align-items:center;
+    justify-content:end;
+    padding: 10px;
+    height: 50px;
+}
+#text{
+    height: 40px;
+    width:180px;
+    background-color: transparent;
+    border-width: 0 0 1px;
+}
+button{
+    height: 100%;
+    width: 100px;
+    color: gold;
+            border: none;
+            outline: none;
+            border-radius: 10px;
+            background-color: teal;
+            padding: 5px 10px;
+            text-align: center;
+            font-size: 16px;
+            cursor: pointer;
+            transition: 2s;
+            font-weight: bold;
+}
+.button1{
+    display: flex;
+    justify-content: center;
+}
+button:hover
+{
+    background-color: yellow;
+    color: black;
+    cursor: pointer;
 }
