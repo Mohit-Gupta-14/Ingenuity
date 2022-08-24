@@ -33,7 +33,7 @@ function printdata(res){
             console.log(text)
     d = new Date(res[i].Date);
     var year = d.getFullYear();
-    var month = d.getMonth();
+    var month = d.getMonth()+1;
     var day = d.getDate();
     var final=day+"/"+month+"/"+year;
     dt.innerText=" "+final;
