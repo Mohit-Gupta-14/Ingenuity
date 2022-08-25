@@ -45,6 +45,9 @@ function pri()
 function addPoint(){
     score++;
     po[1].innerText=""+score;
+    var myaudio=new Audio();
+    myaudio.src="./su.mp3";
+    myaudio.play();
 }
 
 
