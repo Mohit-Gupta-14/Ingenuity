@@ -25,7 +25,8 @@ h1{
 #canva{
     height: 80%;
     width:80%;
-    background-color: aliceblue;
+    background-color: #fff;
+    background-color: rgba(49, 53, 53, 0.5);
     border-radius: 10px;
     box-shadow: 5px 5px 10px;
 }
