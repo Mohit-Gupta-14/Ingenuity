@@ -6,7 +6,7 @@
 #container{
     height: 100vh;
     width: 100%;
-    background-color: grey;
+    background-image:url("back.jpg");
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -17,9 +17,10 @@
 }
 h1{
     padding: 10px;
-    font-size: 40px;
+    font-size: 80px;
     font-style:oblique;
     text-shadow: 2px 2px 5px;
+    color: orange;
 }
 #canva{
     height: 80%;
