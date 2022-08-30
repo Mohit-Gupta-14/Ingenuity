@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    scroll-behavior:smooth;
+}
+.container{
+ background-image: url(https://wallpaperaccess.com/full/1335864.jpg);   
+ height: 150vh;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-evenly;
+}
+.conte{
+    width: 30%;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,4,0,1) 13%, rgba(175,0,255,1) 69%);
+    margin: 1%;
+    list-style: none;
+    padding: 1%;
+    padding: 10px 15px;
+    font-size: 30px;
+    text-transform: uppercase;
+    border:2px solid red;
+    width: min-content;
+    border-radius: 20px;
+}
+.conte a 
+{
+    text-decoration: none;
+    color: aliceblue;
+}
+.conte a:hover{
+    color: blue;
+    font-size: 40px;
+     ;
+}
