@@ -6,33 +6,51 @@
     scroll-behavior:smooth;
 }
 .container{
- background-image: url(https://wallpaperaccess.com/full/1335864.jpg);   
- height: 150vh;
+ /* background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/planet-earth-day-and-night-side-of-our-planet-royalty-free-image-1650654479.jpg);    */
+    background-image: url(https://earthsky.org/upl/2018/04/696_dscovrepicmoontransitfull.gif);
+    /* background-image: url(https://media.wired.com/photos/5bdb590f9767b57847fe4222/1:1/w_1441,h_1441,c_limit/soyuz.jpg); */
+     height: 150vh;
     display: flex;
-    align-items: baseline;
+    flex-direction: column;
     justify-content: space-evenly;
+}
+.header{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:greenyellow;
+    font-size: 30px;
+    text-shadow: 5px 2px black;
+
 }
 .conte{
     width: 30%;
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,4,0,1) 13%, rgba(175,0,255,1) 69%);
+    background: #fff;
+    background: rgb(255, 255,255,0.2);
     margin: 1%;
     list-style: none;
-    padding: 1%;
     padding: 10px 15px;
-    font-size: 30px;
+    font-size: 20px;
     text-transform: uppercase;
-    border:2px solid red;
-    width: min-content;
+    box-shadow: 5px 5px 5px greenyellow;
     border-radius: 20px;
+}
+.inner{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    text-align: center;
 }
 .conte a 
 {
     text-decoration: none;
-    color: aliceblue;
+    color:yellowgreen;
+    font-weight: bold;
 }
-.conte a:hover{
-    color: blue;
-    font-size: 40px;
-     ;
+.conte:hover{
+    color: rgb(229, 241, 56);
+    font-size: 30px;
+    transition: 1s;
+     
 }
