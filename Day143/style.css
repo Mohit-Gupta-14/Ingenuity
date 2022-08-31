@@ -21,6 +21,8 @@
     align-items: center;
     display: flex;
     flex-direction: column;
+    background-color: #fff;
+    background-color: rgb(255, 255,255,0.3);
 
 }
 #header{
@@ -30,6 +32,7 @@
     text-shadow: 5px 2px 5px;
 }
 #forme{
+
  display: flex;
  flex-direction: column;
  font-size: 18px;
@@ -50,7 +53,7 @@ input,select
     background-color: transparent;
     outline: 0;
     border-width: 0 0 1px;
-    border-color: white
+    border-color: white;
 }
 input:focus{
     border-color: black;

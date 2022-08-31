@@ -1,128 +1,133 @@
-// var a=10;
+// // var a=10;
 
 
+// // {
+
+// //     b=20;
+// //     console.log(b);
+// // }
+// // console.log(b);
+
+// // {
+// //     let c=100;
+// //     console.log(c);
+
+// // }
+// // // console.log(c);
+
+// // const se=120;
+
+// // console.log(se);
+
+// // // Arrow Function
+
+// // const sayHi = ()=> console.log("This is Function");
+
+// // sayHi();
+
+
+// // const add = (x,y) => x+y;
+
+// // let result = add(5,4);
+
+// // console.log(result*100);
+
+
+// // const mul = (x) => x*x;
+
+// // let res= add(5,mul(5));
+
+// // console.log(res);
+
+
+// // // Destructuring
+
+// // var arr=[1,2,3,4,5,6,7,8,9,10];
+
+
+// // let [x,y]=arr;
+// // console.log(x);
+// // console.log(y);
+
+
+
+// // // Destructing with Object
+
+// // let person = {
+// //     name : "sachin",
+// //     age : 30,
+// //     mobile : 43243223,
+// //     city : "Jaipur"
+// // };
+
+// // console.log(person.city)
+
+// // let {mobile, city}=person;
+
+// // console.log(mobile);
+// // console.log(city)
+
+
+// // Restructing
+
+// // let nam = "Pankaj";
+// // let designation="Trainer";
+// // let city= "Canada";
+// // let dist = () => {
+// //     console.log("Function");
+// // }
+
+// // let obj= {nam , designation , city,dist};
+
+// // console.log(obj.dist());
+
+
+// // Rest Operator
+
+// // function display(a,b,...data)
+// // {
+// //     console.log(data);
+// //     console.log(a+" "+b);
+// // }
+
+// // display(1,2,3,3,2,4,7);
+
+// // arr1=[1,2,3,4];
+// // arr2=[6,4,3,2,...arr1];
+// // console.log(arr2);
+
+
+
+// // Template String
+
+// // let fname="Pankaj";
+// // let lname="Kapoor";
+
+
+// // console.log("Welcome"+" "+fname+" "+lname);
+// // console.log('Welcome ${fname} ${lname}');
+
+// // ES6
+
+// class Traing
 // {
-
-//     b=20;
-//     console.log(b);
-// }
-// console.log(b);
-
-// {
-//     let c=100;
-//     console.log(c);
-
-// }
-// // console.log(c);
-
-// const se=120;
-
-// console.log(se);
-
-// // Arrow Function
-
-// const sayHi = ()=> console.log("This is Function");
-
-// sayHi();
-
-
-// const add = (x,y) => x+y;
-
-// let result = add(5,4);
-
-// console.log(result*100);
-
-
-// const mul = (x) => x*x;
-
-// let res= add(5,mul(5));
-
-// console.log(res);
-
-
-// // Destructuring
-
-// var arr=[1,2,3,4,5,6,7,8,9,10];
-
-
-// let [x,y]=arr;
-// console.log(x);
-// console.log(y);
-
-
-
-// // Destructing with Object
-
-// let person = {
-//     name : "sachin",
-//     age : 30,
-//     mobile : 43243223,
-//     city : "Jaipur"
-// };
-
-// console.log(person.city)
-
-// let {mobile, city}=person;
-
-// console.log(mobile);
-// console.log(city)
-
-
-// Restructing
-
-// let nam = "Pankaj";
-// let designation="Trainer";
-// let city= "Canada";
-// let dist = () => {
-//     console.log("Function");
+//     constructor(trainingName,trainingDuration)
+//     {
+//         this.trainingName=trainingName;
+//         this.trainingDuration=trainingDuration;
+//     }
+//     displayDetails(){
+//         return `Training Name : ${this.trainingName} \nTraining Duration : ${this.trainingDuration} ` ;
+//     }
 // }
 
-// let obj= {nam , designation , city,dist};
+// let ing= new Traing('Mohit',34);
 
-// console.log(obj.dist());
+// console.log(ing.displayDetails());
 
-
-// Rest Operator
-
-// function display(a,b,...data)
-// {
-//     console.log(data);
-//     console.log(a+" "+b);
-// }
-
-// display(1,2,3,3,2,4,7);
-
-// arr1=[1,2,3,4];
-// arr2=[6,4,3,2,...arr1];
-// console.log(arr2);
+// 
 
 
+Day 20
 
-// Template String
-
-// let fname="Pankaj";
-// let lname="Kapoor";
-
-
-// console.log("Welcome"+" "+fname+" "+lname);
-// console.log('Welcome ${fname} ${lname}');
-
-// ES6
-
-class Traing
-{
-    constructor(trainingName,trainingDuration)
-    {
-        this.trainingName=trainingName;
-        this.trainingDuration=trainingDuration;
-    }
-
-
-    displayDetails(){
-        return `Training Name : ${this.trainingName} \nTraining Duration : ${this.trainingDuration} ` ;
-    }
-}
-
-let ing= new Traing('Mohit',34);
-
-console.log(ing.displayDetails());
+babel 
