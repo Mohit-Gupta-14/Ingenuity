@@ -55,3 +55,24 @@
      
 }
 
+@media screen and (max-width:500px) {
+
+    .inner{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .conte{
+        font-size: 10px;
+    }
+    .conte:hover{
+        font-size: 15px;
+    }
+    .header{
+        font-size: 10px;
+    }
+
+    
+} 
