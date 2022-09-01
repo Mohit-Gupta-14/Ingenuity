@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;600&family=Rubik+Dirt&display=swap');
+            </style>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styler.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+        </div>
+        <div class="shad">
+        </div>
+        <p>
+            LOADING<span>. . .</span>
+        </p>
+    </div>
+    <div class="contain" style="display:none;">
+        <h1 id="header">
+            Contact Form
+        </h1>
+        <div class="entry">
+            <h3 id="header">Let Us Know About You.</h3>
+            <div id="forme">
+                <div class="format">
+                    <label>Enter Name</label>
+                    <input>
+                </div>
+                <div class="format">
+                    <label>E-Mail Id</label>
+                    <input>
+                </div>
+            <div class="format">
+                <label>Rate on Scale 1-10</label>
+                <input type="number" id="fname"></div>
+                <div class="format">
+                    <label>Where you want to use</label>
+                <select id="cars"> 
+                    <option value="volvo">Volvo</option>
+                    <option value="saab">Saab</option>
+                    <option value="fiat">Fiat</option>
+                    <option value="audi">Audi</option>
+                  </select></div>
+                  <div class="format" id="radio" >
+                    <label>Time To Contact</label>
+                    <div class="rad">
+                    <div class="radi">
+                    <input type="radio" id="veh" name="fav_language">
+                    <label>HTML</label><br></div>
+                    <div class="radi">
+                    <input type="radio" id="veh" name="fav_language">
+                    <label>CSS</label><br></div>
+                    <div class="radi">
+                    <input type="radio" id="veh" name="fav_language">
+                    <label>JavaScript</label></div>
+                    </div>
+                </div>
+                <div class="format" id="radio"><label>What you Experience</label>
+                    <div class="rad">
+                    <div class="radi">
+                    <input type="checkbox" id="veh" name="vehicle1" value="Bike">
+                    <label> I have a bike</label><br></div>
+                    <div class="radi">
+                    <input type="checkbox" id="veh" name="vehicle2" value="Car">
+                    <label> I have a car</label><br></div>
+                    <div class="radi">
+                    <input type="checkbox" id="veh" name="vehicle3" value="Boat">
+                    <label for="vehicle3"> I have a boat</label><br></div>
+                </div>
+                </div>
+                    <div class="text"><label>Describe you view</label>
+                    <textarea id="text" rows="3" cols="20"></textarea></div>
+                 <div id="button1"><button>Submit</button></div>
+            </form>
+        </div>
+    </div>
+    <script src="form.js"></script>
+</body>
+</html>
