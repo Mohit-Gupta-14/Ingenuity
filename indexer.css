@@ -56,6 +56,23 @@
      
 }
 
+@media screen and (max-width:750px) {
+    .inner{
+        flex-direction: row;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }   
+    .conte{
+        font-size: 15px;
+    }
+    .conte:hover{
+        font-size: 20px;
+    }
+    .header{
+        font-size: 20px;
+    }   
+} 
 @media screen and (max-width:500px) {
 
     .inner{
