@@ -28,7 +28,7 @@
 .conte{
     width: 30%;
     background: #fff;
-    background: rgb(255, 255,255,0.2);
+    background: rgb(0, 0,0,0.8);
     margin: 1%;
     list-style: none;
     padding: 10px 15px;
@@ -74,6 +74,11 @@
     }   
 } 
 @media screen and (max-width:500px) {
+
+    .container{
+        /* background-image: url(https://media.wired.com/photos/5bdb590f9767b57847fe4222/1:1/w_1441,h_1441,c_limit/soyuz.jpg);  */
+        background-image: url(https://media4.giphy.com/media/l5JbspfwZ0yjHjlJ0K/giphy-downsized-large.gif);
+    }
 
     .inner{
         flex-direction: column;
