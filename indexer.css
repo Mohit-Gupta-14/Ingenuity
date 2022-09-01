@@ -10,6 +10,7 @@
     background-image: url(https://earthsky.org/upl/2018/04/696_dscovrepicmoontransitfull.gif);
     /* background-image: url(https://media.wired.com/photos/5bdb590f9767b57847fe4222/1:1/w_1441,h_1441,c_limit/soyuz.jpg); */
      height: 150vh;
+     background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
