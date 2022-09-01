@@ -109,11 +109,11 @@ button{
             transition: 2s;
             font-weight: bold;
 }
-.button1{
+#button1{
     display: flex;
     justify-content: center;
 }
-button:hover
+#button:hover
 {
     background-color: yellow;
     color: black;
