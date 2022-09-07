@@ -1,4 +1,4 @@
-function findSum(...num)
+function findSum(...num:number[])
 {
     var sum = 0;
     num.forEach(function(number)

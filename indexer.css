@@ -7,7 +7,10 @@
 }
 .container{
  /* background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/planet-earth-day-and-night-side-of-our-planet-royalty-free-image-1650654479.jpg);    */
-    background-image: url(https://earthsky.org/upl/2018/04/696_dscovrepicmoontransitfull.gif);
+    /* background-image: url(https://earthsky.org/upl/2018/04/696_dscovrepicmoontransitfull.gif);
+    background-image: url(https://wallpapercave.com/wp/wp2758145.gif);
+    background-image: url(https://i.pinimg.com/originals/b2/d5/c5/b2d5c5394cd46c0cb444ef2eb1f8ee42.gif); */
+    background-image: url(https://i.gifer.com/g1Ie.gif);
     /* background-image: url(https://media.wired.com/photos/5bdb590f9767b57847fe4222/1:1/w_1441,h_1441,c_limit/soyuz.jpg); */
      height: 150vh;
      background-size: cover;
